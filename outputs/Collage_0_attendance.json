@@ -1,0 +1,184 @@
+{
+  "source_image": "Collage_0.jpg",
+  "total_detected": 14,
+  "present_members": [
+    "Adriana Lima",
+    "Jennifer Lawrence",
+    "Leonardo DiCaprio",
+    "Lionel Messi",
+    "Shakira Isabel Mebarak",
+    "Taylor Swift",
+    "Zendaya",
+    "barack obama"
+  ],
+  "records": [
+    {
+      "person_name": "Taylor Swift",
+      "confidence": 1.0,
+      "distance": 6255.815534069223,
+      "bounding_box": [
+        20,
+        19,
+        97,
+        97
+      ],
+      "timestamp": "2026-11-17T05:20:28.431543+00:00"
+    },
+    {
+      "person_name": "Jennifer Lawrence",
+      "confidence": 1.0,
+      "distance": 5189.170924515338,
+      "bounding_box": [
+        143,
+        12,
+        93,
+        93
+      ],
+      "timestamp": "2026-11-17T05:20:28.431812+00:00"
+    },
+    {
+      "person_name": "Leonardo DiCaprio",
+      "confidence": 1.0,
+      "distance": 5702.26071374972,
+      "bounding_box": [
+        262,
+        11,
+        106,
+        106
+      ],
+      "timestamp": "2026-11-17T05:20:28.431818+00:00"
+    },
+    {
+      "person_name": "Lionel Messi",
+      "confidence": 1.0,
+      "distance": 4493.929879692515,
+      "bounding_box": [
+        398,
+        23,
+        95,
+        95
+      ],
+      "timestamp": "2026-11-17T05:20:28.431822+00:00"
+    },
+    {
+      "person_name": "Adriana Lima",
+      "confidence": 1.0,
+      "distance": 4627.26424508278,
+      "bounding_box": [
+        139,
+        145,
+        99,
+        99
+      ],
+      "timestamp": "2026-11-17T05:20:28.431824+00:00"
+    },
+    {
+      "person_name": "Shakira Isabel Mebarak",
+      "confidence": 1.0,
+      "distance": 4417.704667442938,
+      "bounding_box": [
+        273,
+        156,
+        85,
+        85
+      ],
+      "timestamp": "2026-11-17T05:20:28.431827+00:00"
+    },
+    {
+      "person_name": "Zendaya",
+      "confidence": 1.0,
+      "distance": 3639.3467576561534,
+      "bounding_box": [
+        398,
+        144,
+        88,
+        88
+      ],
+      "timestamp": "2026-11-17T05:20:28.431829+00:00"
+    },
+    {
+      "person_name": "Adriana Lima",
+      "confidence": 1.0,
+      "distance": 5569.548005142426,
+      "bounding_box": [
+        258,
+        260,
+        112,
+        112
+      ],
+      "timestamp": "2026-11-17T05:20:28.431832+00:00"
+    },
+    {
+      "person_name": "Adriana Lima",
+      "confidence": 1.0,
+      "distance": 6223.010367613582,
+      "bounding_box": [
+        395,
+        267,
+        107,
+        107
+      ],
+      "timestamp": "2026-11-17T05:20:28.431834+00:00"
+    },
+    {
+      "person_name": "Taylor Swift",
+      "confidence": 1.0,
+      "distance": 3292.0317765109353,
+      "bounding_box": [
+        134,
+        383,
+        118,
+        118
+      ],
+      "timestamp": "2026-11-17T05:20:28.431836+00:00"
+    },
+    {
+      "person_name": "Jennifer Lawrence",
+      "confidence": 1.0,
+      "distance": 4615.912771952438,
+      "bounding_box": [
+        154,
+        286,
+        74,
+        74
+      ],
+      "timestamp": "2026-11-17T05:20:28.431838+00:00"
+    },
+    {
+      "person_name": "Zendaya",
+      "confidence": 1.0,
+      "distance": 3879.067448561805,
+      "bounding_box": [
+        13,
+        402,
+        92,
+        92
+      ],
+      "timestamp": "2026-11-17T05:20:28.431840+00:00"
+    },
+    {
+      "person_name": "barack obama",
+      "confidence": 1.0,
+      "distance": 4480.3365598676955,
+      "bounding_box": [
+        264,
+        399,
+        99,
+        99
+      ],
+      "timestamp": "2026-11-17T05:20:28.431843+00:00"
+    },
+    {
+      "person_name": "Zendaya",
+      "confidence": 1.0,
+      "distance": 5274.720255578127,
+      "bounding_box": [
+        391,
+        392,
+        96,
+        96
+      ],
+      "timestamp": "2026-11-17T05:20:28.431845+00:00"
+    }
+  ]
+}

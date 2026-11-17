@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digital-attendance"
+version = "0.1.0"
+description = "Automated digital attendance pipeline using Haar Cascades, Euclidean Distance, and Eigenfaces PCA"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "NatalTiger26" }
+]
+keywords = ["computer-vision", "face-recognition", "eigenfaces", "pca", "attendance-system", "opencv"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "numpy>=1.26.0",
+    "opencv-python>=4.8.0",
+    "matplotlib>=3.8.0",
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+digital-attendance = "digital_attendance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["digital_attendance*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v --strict-markers"
